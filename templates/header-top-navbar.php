@@ -18,4 +18,10 @@
       ?>
     </nav>
   </div>
+  <?php
+
+if ( is_front_page() ) {    
+    
+    layerslider(1);
+    } ?>
 </header>
