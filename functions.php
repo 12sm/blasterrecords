@@ -38,8 +38,6 @@ jQuery(document).ready(function() {
 <?php
 }
 
-
-
 /**
  * Roots includes
  */
