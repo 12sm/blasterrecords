@@ -41,7 +41,7 @@ function trim_shortcode($atts, $content = '') {
   $content = wpv_do_shortcode($content);
   $length = (int)$atts['length'];
   if (strlen($content) > $length) {
-    $content = substr($content, 0, $length) . '&hellip;';
+    $content = wp_trim_words($content, 0, $length) . '&hellip;';
   }
   return $content;
 }
