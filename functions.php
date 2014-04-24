@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
 });
 </script>
 
-
+<?php
 add_shortcode('trim', 'trim_shortcode');
 function trim_shortcode($atts, $content = '') {
   $content = wpv_do_shortcode($content);
@@ -44,7 +44,7 @@ function trim_shortcode($atts, $content = '') {
     $content = substr($content, 0, $length) . '&hellip;';
   }
   return $content;
-}
+} ?>
 
 <?php
 }
