@@ -57,6 +57,7 @@ function roots_display_sidebar() {
       'is_404',
       'is_front_page',
       'is_page'
+      'is_single'
     ),
     /**
      * Page template checks (via is_page_template())
@@ -67,7 +68,7 @@ function roots_display_sidebar() {
     )
   );
 
-  return true;
+  return apply_filters('roots_display_sidebar', $sidebar_config->display);
 }
 
 /**
