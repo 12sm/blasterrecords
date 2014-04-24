@@ -9,8 +9,20 @@
 
 body { }
 
-
-
+.socials {
+list-style: none;
+}
+.socials>li {
+float: right;
+margin: 0 10px;
+}
+.socials>li>a>i {
+font-size: 2em;
+color: #000;
+}
+.artist-website {
+margin-bottom: 0px;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
