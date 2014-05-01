@@ -1,3 +1,9 @@
+<?php
+
+if ( is_front_page() || is_page('store')) {    
+    
+    layerslider(1);
+    } ?>
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar-header">
