@@ -23,6 +23,10 @@ color: #000;
 .artist-website {
 margin-bottom: 0px;
 }
+.img-wrapper {
+padding-bottom: 50%;
+background-size: cover!important;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
