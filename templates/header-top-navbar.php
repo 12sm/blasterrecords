@@ -1,6 +1,6 @@
 <?php
 
-if ( is_front_page() || is_page('store')) {    
+if ( is_front_page() || is_page('artists')) {    
     
     layerslider(1);
     } ?>
