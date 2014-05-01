@@ -24,7 +24,8 @@ color: #000;
 margin-bottom: 0px;
 }
 .img-wrapper {
-padding-bottom: 50%;
+padding-top: 50%;
+padding-bottom: 5px;
 background-size: cover!important;
 }
 /* ==========================================================================
