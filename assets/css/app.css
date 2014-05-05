@@ -47,7 +47,7 @@ display: inline-block;
    list-style: none;
    display: inline-block;
 }
-#music-player h4 {
+.music-player h4 {
 display: inline-block;
 }
 /* ==========================================================================
