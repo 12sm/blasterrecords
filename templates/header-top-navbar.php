@@ -24,7 +24,8 @@ if ( is_front_page() || is_page('artists')) {
       ?>
 
       <?php if (is_singular( 'artist' ) ) {
-        echo "Artist singular";
+        $postid = get_the_ID();
+        echo "artist id" .$postid. ;
         echo do_shortcode('[wpv-view name="output-album-meta" wpvprchildof='.$postid.' ]');
       } else{
         echo "not artist";
