@@ -18,7 +18,7 @@ if ( is_front_page() || is_page('artists')) {
 
     <nav class="collapse navbar-collapse" role="navigation">
       <div class="row">
-        <div class="col-sm-7">
+        <div class="col-sm-5">
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
