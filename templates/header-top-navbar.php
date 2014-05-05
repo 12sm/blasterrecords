@@ -6,6 +6,8 @@ if ( is_front_page() || is_page('artists')) {
     } ?>
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container">
+  <div class="row">
+        <div class="col-sm-7">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -15,10 +17,10 @@ if ( is_front_page() || is_page('artists')) {
       </button>
       <a class="navbar-brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
     </div>
-
+    </div>
+    <div class="col-sm-5">
     <nav class="collapse navbar-collapse" role="navigation">
-      <div class="row">
-        <div class="col-sm-5">
+      
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
