@@ -274,6 +274,21 @@ soundManager.onready(function() {
     inlinePlayer = new InlinePlayer();
   }
 });
+
+  //Add playlist functionality to player
+  //declare variables
+  $n = 1;
+  myPlaylistContainer = $('.music_player');
+  myPlaylist = $('.sm2_link');
+
+  //Add ID
+  myPlaylistContainer.foreach(function(){
+    this.addClass('id-$n');
+    $n++;
+  })
+  };
+  
+
     }
   },
   // Home page
