@@ -76,7 +76,7 @@ var Roots = {
     }
   },
   //News Page
-  news: {
+  blog: {
     init: function() {
     $(".blog-img-container").imgLiquid();
     }
