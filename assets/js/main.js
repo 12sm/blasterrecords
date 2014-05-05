@@ -74,6 +74,12 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the about us page
     }
+  },
+  //News Page
+  news{
+    init: function() {
+    $(".blog-img-container").imgLiquid();
+    }
   }
 };
 
