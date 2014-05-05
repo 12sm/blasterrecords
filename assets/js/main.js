@@ -31,7 +31,7 @@ var Roots = {
             next.addClass('playing').siblings().removeClass('playing');
             audio.load($('a', next).attr('data-src'));
             audio.play();
-      });
+      };
       // Load in the first track
         var audio = a[0];
             first = $('ol a').attr('data-src');
@@ -64,7 +64,7 @@ var Roots = {
           }
         })
       });
-      
+
     });
 
     }
