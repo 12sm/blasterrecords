@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-sm-12">
+	<div class="col-sm-12 headline">
 		<?php echo do_shortcode('[wpv-view name="homeartist-page-headline"]'); ?>
 	</div>
 </div>
