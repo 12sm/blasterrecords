@@ -69,6 +69,17 @@ display: none;
 li.playing {
 display: block!important;
 }
+
+/*Fix music icons*/
+.audiojs .play {
+background: url("../wp-content/themes/blasterrecords/assets/js/player-graphics.gif") -2px -1px no-repeat;
+}
+.audiojs .pause {
+background: url("../wp-content/themes/blasterrecords/assets/js/player-graphics.gif") -2px -91px no-repeat;
+}
+.audiojs .loading {
+background: url("../wp-content/themes/blasterrecords/assets/js/player-graphics.gif") -2px -31px no-repeat;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
