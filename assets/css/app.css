@@ -106,6 +106,128 @@ display: block!important;
 .hentry .entry-content { }
 .hentry footer { }
 
+.hentry time {
+font-size: 12px;
+width: 100%;
+display: block;
+}
+
+body.single .hentry time {
+font-size: 16px;
+padding: 5px;
+}
+
+.individual-post .post-footer .addthis_toolbox {
+float: right;
+width: 70%;
+}
+
+.meta-date-share {
+padding: 1%;   
+background-color:#FFF;
+}
+
+.addthis_toolbox {
+background-color: #FFF;
+display: block;
+width: 100%;
+opacity: .7;
+}
+
+.meta-date-share .addthis_toolbox {
+width:250px;   
+}
+
+.blog-top{
+   margin-top: 4%;
+}
+
+.blog-img-container {
+height: 0px;
+background-position: 50% 0px!important;
+padding-bottom: 60%;
+}
+
+.hentry .entry-content {
+-moz-column-count: 2;
+-moz-column-gap: 20px;
+-webkit-column-count: 2;
+-webkit-column-gap: 30px;
+}
+
+body.single .btn-primary {
+background: #81194a;
+border: none;
+color: #FFF;
+font-size: 14px;
+width: 100%;
+padding: 1%;
+margin-top:5px;
+}
+
+body.single .btn-primary:hover {
+background-color: #c9c9c9;
+} 
+
+h1.entry-title {
+text-transform: uppercase!important;
+font-weight: 100;
+word-spacing: .1em;
+color: #878787;
+font-size: 52px!important;
+text-align: left;
+background-color:#FFF;
+padding:1%;
+}
+
+.blog-post-content {
+margin-top: 20px;
+background-color: #FFF;
+padding: 2%;
+}
+
+.individual-post {
+background-color: #FFF;
+padding-top: 1%;
+border: 1px solid rgb(238, 238, 238);
+}
+
+.individual-post .wp-post-image {display:none;}
+
+.individual-post .excerpt {
+height: 155px;
+overflow: hidden; 
+}
+
+.individual-post .post-footer {
+padding: 10px;
+text-align: left;
+border-top: 1px solid #ededed;
+}
+
+.individual-post .post-footer .post-date {
+color: #ccc!important;
+font-size: 10px;
+text-transform: uppercase;
+}
+
+#respond > h3 {
+text-transform: uppercase!important;
+font-weight: 100;
+word-spacing: .1em;
+color: #878787;
+font-size: 32px!important;
+text-align: left;
+background-color: #FFF;
+padding: 1%;
+}
+
+#respond {background-color:#FFF;}
+
+
+body.category-news .addthis_default_style .at15t_compact {
+display: none;
+}
 
 /* ==========================================================================
    Home
