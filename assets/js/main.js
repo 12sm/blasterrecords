@@ -66,8 +66,6 @@ var Roots = {
         })
       });
 
-    });
-
     }
   },
   // Home page
