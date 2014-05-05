@@ -29,7 +29,7 @@ if ( is_front_page() || is_page('artists')) {
       } else{
         echo "not artist";
       $postid = get_the_ID();
-      echo do_shortcode('[wpv-view name="output-album-meta"]'); 
+      echo do_shortcode('[wpv-view name="output-track-meta"]'); 
       }
       ?>
       </div>
