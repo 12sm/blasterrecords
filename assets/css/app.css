@@ -80,6 +80,9 @@ background: url("../js/player-graphics.gif") -2px -91px no-repeat!important;
 .audiojs .loading {
 background: url("../js/player-graphics.gif") -2px -31px no-repeat!important;
 }
+.audiojs .play-pause {
+width: 35px!important;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
