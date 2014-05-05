@@ -22,9 +22,13 @@ if ( is_front_page() || is_page('artists')) {
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
-      <?php
+      <?php if (is_singular( 'artist' ) ) {
+        echo do_shortcode('[wpv-view name="output-album-meta" wpvprchildof='.$postid.' ]');
+      } else{
       $postid = get_the_ID();
-      echo do_shortcode('[wpv-view name="output-album-meta" wpvprchildof='.$postid.' ]'); ?>
+      echo do_shortcode('[wpv-view name="output-album-meta"]'); 
+      }
+      ?>
     </nav>
   </div>
   <?php
