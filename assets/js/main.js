@@ -24,7 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
       audiojs.events.ready(function() {
-      var as = audiojs.createAll({
+      var a = audiojs.createAll({
         trackEnded: function() {
             var next = $('ol li.playing').next();
             if (!next.length) next = $('ol li').first();
