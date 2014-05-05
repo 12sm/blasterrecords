@@ -24,7 +24,7 @@ if ( is_front_page() || is_page('artists')) {
       ?>
       <?php
       $postid = get_the_ID();
-      echo do_shortcode('[wpv-view name="output-album" wpvprchildof=' echo $postid' ]'); ?>
+      echo do_shortcode('[wpv-view name="output-album" wpvprchildof='$postid' ]'); ?>
     </nav>
   </div>
   <?php
