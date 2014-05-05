@@ -169,3 +169,24 @@ _blank"><i class="fa fa-globe"></i></a></li>
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!-- Music Player-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<wpv-loop>
+			<div id="music-player">
+				<ul class="music-controls">
+					<li><i class="fa fa-backward"></i></li>
+					<li><i class="fa fa-play pla-button"></i></li>
+					<li><i class="fa fa-forward"></i></li>
+				</ul>
+         <h4>[wpv-post-title id='$artist'] |</h4>
+          [wpv-view name="output-track" wpvprchildof="[wpv-post-id]"]
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
