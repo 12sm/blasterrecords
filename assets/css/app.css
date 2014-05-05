@@ -40,8 +40,16 @@ background: rgba(0,0,0,.3);
 
 .banner { }
 
-
-
+.music-controls>li {
+display: inline-block;
+}
+.music-controls{
+   list-style: none;
+   display: inline-block;
+}
+#music-player h4 {
+display: inline-block;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
