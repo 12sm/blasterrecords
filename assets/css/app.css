@@ -192,8 +192,6 @@ padding-top: 1%;
 border: 1px solid rgb(238, 238, 238);
 }
 
-.individual-post .wp-post-image {display:none;}
-
 .individual-post .excerpt {
 height: 155px;
 overflow: hidden; 
