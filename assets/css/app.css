@@ -130,7 +130,10 @@ body.single .hentry time {
 font-size: 16px;
 padding: 5px;
 }
-
+.hentry p{
+   word-spacing: 4px;
+   line-height: 20px;
+}
 .individual-post .post-footer .addthis_toolbox {
 float: right;
 width: 100%;
@@ -161,7 +164,9 @@ height: 0px;
 background-position: 50% 0px!important;
 padding-bottom: 60%;
 }
-
+.wp-post-image {
+margin-bottom: 25px;
+}
 
 body.single .btn-primary {
 border: none;
