@@ -190,3 +190,29 @@ _blank"><i class="fa fa-globe"></i></a></li>
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!--Staff View-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<div class="row">
+		<wpv-loop>
+			<div class="col-md-4 col-sm-6">
+			<a href="artist URL">
+				<div class="img-wrapper" style="background:url(img);">
+				</div>
+			</a>
+			<div>
+				<h4>Staff Name</h4>
+				<h5>Position</h5>
+				<p>Short Bio</p>
+			</div>
+			</div>
+		</wpv-loop>
+		</div>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
