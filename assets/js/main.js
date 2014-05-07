@@ -60,12 +60,7 @@ var Roots = {
             prev.click();
           });
       });
-      console.log(".load function is working");
-    $('.scrubber').onload(function(){
-      console.log(".load function is working");
-      $(".scrubber").wrap('<div class="scrub-new"></div>');
-     });
-
+      
     }
   },
   // Home page
