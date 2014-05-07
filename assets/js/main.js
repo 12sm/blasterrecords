@@ -60,9 +60,9 @@ var Roots = {
             prev.click();
           });
       });
-
-    $(".scrubber").wrap('<div class="scrub-new"></div>');
-
+    $('.scrubber').load(function(){
+      $(".scrubber").wrap('<div class="scrub-new"></div>');
+     });
     }
   },
   // Home page
