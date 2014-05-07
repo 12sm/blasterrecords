@@ -86,15 +86,15 @@ width: 35px!important;
 .scrubber{
    display: none;
 }
-.scrub-new {
+.scrubber-new {
 position: relative;
 float: left;
-width: 280px;
+width: 245px;
 height: 14px;
-border-top: 1px solid #3f3f3f;
+margin: 10px;
 border-left: 0px;
 border-bottom: 0px;
-height: 100%;
+overflow: hidden;
 }
 .next-track, .prev-track {
 width: 25px;
