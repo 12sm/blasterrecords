@@ -96,8 +96,16 @@ border-left: 0px;
 border-bottom: 0px;
 height: 100%;
 }
-#audiojs_wrapper0>.play-pause{
-   display: none;
+.next-track, .prev-track {
+width: 25px;
+height: 26px;
+float: left;
+color: #fff;
+text-align: center;
+padding: 4px 6px;
+margin: 0px;
+overflow: hidden;
+border-right: 1px solid #000;
 }
 /* ==========================================================================
    Content
