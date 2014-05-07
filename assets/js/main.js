@@ -61,6 +61,7 @@ var Roots = {
           });
       });
     $('.scrubber').load(function(){
+      console.log(".load function is working");
       $(".scrubber").wrap('<div class="scrub-new"></div>');
      });
     }
