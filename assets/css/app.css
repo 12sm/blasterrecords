@@ -98,11 +98,11 @@ height: 100%;
 }
 .next-track, .prev-track {
 width: 25px;
-height: 26px;
+height: 100%;
 float: left;
 color: #fff;
 text-align: center;
-padding: 4px 6px;
+padding: 9px 6px;
 margin: 0px;
 overflow: hidden;
 border-right: 1px solid #000;
