@@ -22,7 +22,7 @@ if ( is_front_page() || is_page('artists')) {
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
-
+      <audio preload></audio>
       <?php if (is_singular( 'artist' ) ) {
         $postid = get_the_ID();
         echo do_shortcode('[wpv-view name="output-track-meta" wpvprchildof='.$postid.' ]');
