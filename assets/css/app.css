@@ -80,6 +80,9 @@ background: url("../js/player-graphics.gif") -2px -91px no-repeat!important;
 .audiojs .loading {
 background: url("../js/player-graphics.gif") -2px -31px no-repeat!important;
 }
+.audiojs .error {
+background: url("../js/player-graphics.gif") -2px -61px no-repeat;
+}
 .audiojs .play-pause {
 width: 35px!important;
 }
@@ -106,6 +109,9 @@ padding: 9px 6px;
 margin: 0px;
 overflow: hidden;
 border-right: 1px solid #000;
+}
+.scrubber{
+   display: none;
 }
 /* ==========================================================================
    Content
