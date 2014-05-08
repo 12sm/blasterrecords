@@ -143,6 +143,10 @@ background: #FE0000;
 }
 .scrubber{
    background-color: #fff!important;
+   border: 0px!important;
+}
+.loaded{
+   background-color: #EEEFF1!important;
 }
 /*Fix music icons*/
 .audiojs .play {
