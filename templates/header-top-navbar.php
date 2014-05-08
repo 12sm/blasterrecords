@@ -17,7 +17,7 @@
         endif;
       ?>
       <div class="player">
-      <audio preload></audio>
+      
       <?php if (is_singular( 'artist' ) ) {
         $postid = get_the_ID();
         echo do_shortcode('[wpv-view name="output-track-meta" wpvprchildof='.$postid.' ]');
@@ -25,6 +25,7 @@
       echo do_shortcode('[wpv-view name="output-track-meta"]'); 
       }
       ?>
+      <audio preload></audio>
       </div>
       </div>
     </nav>
