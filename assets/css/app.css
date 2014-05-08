@@ -180,7 +180,7 @@ text-align: center;
 padding: 9px 6px;
 margin: 0px;
 overflow: hidden;
-border-right: 0px solid #000;
+border-right: 0px solid #000!important;
 background: #F8F8F8;
 }
 .home header.banner.navbar.navbar-default.navbar-static-top {
