@@ -101,6 +101,9 @@ text-align: right;
 text-decoration: none!important;
 color: #fff;
 }
+.headline {
+margin-bottom: 15px;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -180,6 +183,11 @@ margin-bottom: 0px;
 }
 .player {
 float: right;
+}
+#menu-main-nav > li > a {
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #000;
 }
 /* ==========================================================================
    Content
