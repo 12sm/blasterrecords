@@ -167,16 +167,17 @@ background: url("../js/player-graphics.gif") -2px -61px no-repeat;
 .audiojs .play-pause {
 width: 35px!important;
 }
-.next-track, .prev-track {
+.next-track, .prev-track, .play-pause {
 width: 25px;
 height: 100%;
 float: left;
-color: #fff;
+color: #000;
 text-align: center;
 padding: 9px 6px;
 margin: 0px;
 overflow: hidden;
-border-right: 1px solid #000;
+border-right: 0px solid #000;
+background: #fff;
 }
 .home header.banner.navbar.navbar-default.navbar-static-top {
 margin-bottom: 0px;
