@@ -177,6 +177,9 @@ border-right: 1px solid #000;
 .scrubber{
    display: none;
 }
+.home header.banner.navbar.navbar-default.navbar-static-top {
+margin-bottom: 0px;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
