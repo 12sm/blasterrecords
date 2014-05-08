@@ -32,10 +32,4 @@ if ( is_front_page() || is_page('artists')) {
       ?>
       </div>
     </nav>
-  <?php
-
-if ( is_front_page() ) {    
-    
-    layerslider(1);
-    } ?>
 </header>
