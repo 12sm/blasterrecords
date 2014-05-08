@@ -146,7 +146,7 @@ background: #FE0000;
    border: 0px!important;
 }
 .loaded{
-   background-color: #EEEFF1!important;
+   background: #EEEFF1!important;
 }
 /*Fix music icons*/
 .audiojs .play {
