@@ -12,7 +12,23 @@ body { }
 p, h1, h2, h3, h4, h5, h6 {
    font-family: "proxima-nova";
 }
-
+h1.artist-title {
+font-weight: bolder;
+font-size: 52px;
+color: #000;
+text-transform: uppercase;
+letter-spacing: 12px;
+}
+.artist-website{
+   float: left;
+   line-height: 27px;
+}
+.artist-website>a {
+color: #FE0000;
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
 .socials {
 list-style: none;
 }
