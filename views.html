@@ -1,7 +1,6 @@
 <!--VIEWS-->
 
-          <!--Artist Landscape View-->
-<!--Artist Landscape View-->
+[wpv-if style="wpcf-select-image-style" evaluate="$style='landscape'" debug="true"]
 <div class="row">
 	<div class="col-sm-12">
 		<h1 class="artist-title">[wpv-post-title]</h1>
@@ -9,6 +8,7 @@
 </div>
 <div class="row">
 	<div class="col-sm-12">
+      <div class="artist-header">
 		<p class="artist-website">[types field="artist-website" no_protocol="true" target="_blank"][/types]</p>
 		<ul class="socials">
 			<li><a href="[types field="facebook-url" output="raw"][/types]" target="
@@ -20,12 +20,13 @@ _blank"><i class="fa fa-instagram"></i></a></li>
 			<li><a href="[types field="other-social-url" output="raw"][/types]" target="
 _blank"><i class="fa fa-globe"></i></a></li>
 		</ul>
+      </div>
 	</div>
 </div>
 <div class="row">
 	<div class="col-sm-12">
 		<div class="artist-image">
-			<img src="[types field="artist-image" output="raw"][/types]" class="img-responsive">
+			<img src='[types field="artist-image" size="large" url="true" resize="crop"][/types]' class="img-responsive" />
 		</div>
 	</div>
 </div>
@@ -35,8 +36,12 @@ _blank"><i class="fa fa-globe"></i></a></li>
       <p class="about">[types field="bio"][/types]</p>
 		<a href="artist bio page"><button class="btn btn-default">Read full bio</button></a>
 			<div class="row">
-			<h2>Photo Gallery</h2>
-              [types field="image-galleries" size="thumbnail" align="none" resize="stretch" class="col-sm-6" separator="&amp;nbsp;"][/types]
+              <h2>Photo Gallery</h2>
+              [wpv-for-each field="wpcf-image-galleries"]
+          	<div class="col-sm-6">
+					[types field="image-galleries" size="thumbnail" align="none" resize="stretch" class="img-responsive" separator="&amp;nbsp;"][/types]
+          </div>
+          [/wpv-for-each]
 			</div>
 	</div>
 	<div class="col-sm-7">
@@ -47,34 +52,42 @@ _blank"><i class="fa fa-globe"></i></a></li>
 		<div class="row">
 			<div class="col-sm-12 discography">
               <h2>Discography</h2>
-              [wpv-view name="Discographies"]
+              [wpv-view name="Discographies" wpvprchildof="[wpv-post-id]"]
 	</div>
 </div>
-
-
-<!-- -------------- ----------------- -->
-<!--Artist Portrait-->
-<div class="row">
+      [/wpv-if]
+      [wpv-if style="wpcf-select-image-style" evaluate="$style='portrait'" debug="true"]
+      <div class="row">
 	<div class="col-sm-5">
 		<div class="artist-image">
 			<img src="[types field="artist-image" output="raw"][/types]" class="img-responsive">
 		</div>
 		<div class="row">
 			<h2>Photo Gallery</h2>
-					[types field="image-galleries" size="thumbnail" align="none" resize="stretch" class="col-sm-6" separator="&amp;nbsp;"][/types]
+          [wpv-for-each field="wpcf-image-galleries"]
+          	<div class="col-sm-6">
+					[types field="image-galleries" size="thumbnail" align="none" resize="stretch" class="img-responsive" separator="&amp;nbsp;"][/types]
+          </div>
+          [/wpv-for-each]
 		</div>
 	</div>
 	<div class="col-sm-7">
 		<h1 class="artist-title">[wpv-post-title]</h1>
 			<div class="row">
 				<div class="col-sm-12">
-					<p class="artist-website">[types field="artist-website" no_protocol="true" target="_blank"][/types]</p>
-					<ul class="socials">
-						<li><a href="[types field="facebook-url" output="raw"][/types]" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-						<li><a href="[types field="twitter-url" output="raw"][/types]" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-						<li><a href="[types field="instagram-url" output="raw"][/types]" target="_blank"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="[types field="other-social-url" output="raw"][/types]" target="_blank"><i class="fa fa-globe"></i></a></li>
-					</ul>
+					 <div class="artist-header">
+		<p class="artist-website">[types field="artist-website" no_protocol="true" target="_blank"][/types]</p>
+		<ul class="socials">
+			<li><a href="[types field="facebook-url" output="raw"][/types]" target="
+_blank"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="[types field="twitter-url" output="raw"][/types]" target="
+_blank"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="[types field="instagram-url" output="raw"][/types]" target="
+_blank"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="[types field="other-social-url" output="raw"][/types]" target="
+_blank"><i class="fa fa-globe"></i></a></li>
+		</ul>
+      </div>
 				</div>
 			</div>
 			<div class="row">
@@ -100,6 +113,7 @@ _blank"><i class="fa fa-globe"></i></a></li>
 			</div>
 		</div>
 	</div>
+      [/wpv-if]
 
 
 <!--Discographies-->
