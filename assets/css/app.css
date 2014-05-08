@@ -27,10 +27,23 @@ font-weight: 200;
 font-size: 24px;
 letter-spacing: 6px;
 }
+
+/*=======================================================
+   Artist Page
+  ======================================================= */
 .artist-website{
    float: left;
    line-height: 27px!important;
    margin-bottom: 0px;
+}
+button.btn.btn-default {
+background-color: #FD0100;
+border-radius: 0px;
+border: 0px;
+color: #fff;
+font-size: 12px;
+font-weight: bolder;
+text-transform: uppercase;
 }
 .artist-header {
 border-top: solid 1px #000;
