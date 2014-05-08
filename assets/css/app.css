@@ -136,7 +136,14 @@ display: none;
 li.playing {
 display: block!important;
 }
-
+div#audiojs_wrapper0 {
+height: 30px;
+margin-top: 10px;
+background: #FE0000;
+}
+.scrubber{
+   background-color: #fff!important;
+}
 /*Fix music icons*/
 .audiojs .play {
 background: url("../js/player-graphics.gif") -2px -1px no-repeat!important;
@@ -153,19 +160,6 @@ background: url("../js/player-graphics.gif") -2px -61px no-repeat;
 .audiojs .play-pause {
 width: 35px!important;
 }
-.scrubber{
-   display: none;
-}
-.scrubber-new {
-position: relative;
-float: left;
-width: 245px;
-height: 14px;
-margin: 10px;
-border-left: 0px;
-border-bottom: 0px;
-overflow: hidden;
-}
 .next-track, .prev-track {
 width: 25px;
 height: 100%;
@@ -177,11 +171,11 @@ margin: 0px;
 overflow: hidden;
 border-right: 1px solid #000;
 }
-.scrubber{
-   display: none;
-}
 .home header.banner.navbar.navbar-default.navbar-static-top {
 margin-bottom: 0px;
+}
+.player {
+float: right;
 }
 /* ==========================================================================
    Content
