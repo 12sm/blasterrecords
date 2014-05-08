@@ -22,6 +22,11 @@ font-size: 52px;
 color: #000;
 letter-spacing: 12px;
 }
+h2 {
+font-weight: 200;
+font-size: 24px;
+letter-spacing: 6px;
+}
 .artist-website{
    float: left;
    line-height: 27px!important;
