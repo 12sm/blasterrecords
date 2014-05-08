@@ -28,6 +28,9 @@ font-size: 24px;
 letter-spacing: 6px;
 margin-bottom: 0px;
 }
+.page-header>h1 {
+letter-spacing: 10px;
+}
 
 /*=======================================================
    Artist Page
