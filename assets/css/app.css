@@ -398,7 +398,9 @@ float: left;
 ul#menu-social-navigation {
 font-size: 20px;
 }
-
+.footer-banner{
+   padding: 0px!important;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
