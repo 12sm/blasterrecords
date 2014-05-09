@@ -401,6 +401,11 @@ font-size: 20px;
 .footer-banner{
    padding: 0px!important;
 }
+h4.banner-headline {
+position: relative;
+top: 200px;
+left: 350px;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
