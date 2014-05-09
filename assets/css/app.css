@@ -177,6 +177,7 @@ background: none!important;
 }
 .audiojs .pause {
 background: none!important;
+}
 .audiojs .loading {
 background: url("../js/player-graphics.gif") -2px -31px no-repeat!important;
 }
@@ -192,7 +193,7 @@ height: 100%;
 float: left;
 color: #000;
 text-align: center;
-padding: 9px 6px;
+padding: 9px 6px!important;
 margin: 0px;
 overflow: hidden;
 border-right: 0px solid #000!important;
