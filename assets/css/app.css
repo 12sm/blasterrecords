@@ -43,7 +43,7 @@ h2 {
    margin-bottom: 0px;
 }
 button.btn.btn-default {
-transition: background-color .5s width .5s height .5s ease;
+transition: background-color .5s ease, width .5s ease, height .5s ease;
 background-color: #FD0100;
 border-radius: 0px;
 border: 0px;
