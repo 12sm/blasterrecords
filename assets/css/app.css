@@ -77,7 +77,7 @@ transition: color .5s ease;
 color: #000;
 }
 .socials>li>a>i:hover{
-   color: #666;
+   color: #FD0100;
 }
 .img-wrapper {
 padding-top: 55%;
