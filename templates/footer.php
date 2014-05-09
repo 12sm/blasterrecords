@@ -1,14 +1,15 @@
+<div class="container-fluid footer-banner">
+    <?php if (is_front_page()) {
+      echo do_shortcode('[wpv-view name="home-page-banner"]'); 
+    }
+    ?>
+    </div>
 <footer class="content-info container" role="contentinfo">
   <div class="row">
     <div class="col-lg-12">
       <div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
-    <div class="footer-banner">
-    <?php if (is_front_page()) {
-      echo do_shortcode('[wpv-view name="home-page-banner"]'); 
-    }
-    ?>
     
     <div class="row footer-nav">  
         <?php
