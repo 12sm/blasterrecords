@@ -68,10 +68,14 @@ padding: 7px 15px;
 height: 40px;
 }
 .artist-website>a {
+   transition: color .5s ease;
 color: #FE0000;
 font-size: 16px;
 text-transform: uppercase;
 letter-spacing: 3px;
+}
+.artist-website>a:hover{
+   color: #000;
 }
 .socials {
 list-style: none;
