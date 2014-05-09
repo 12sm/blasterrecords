@@ -459,6 +459,22 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .header {height:130px;}
 
+ul#menu-main-nav {
+position: relative;
+margin: auto;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 60px;
+}
+
+nav.collapse.navbar-collapse {
+height: 130px!important;
+position: relative;
+}
+
 
 }
 
