@@ -175,10 +175,12 @@ display: none;
 .audiojs .play {
 background: none!important;
 width: 25px!important;
+padding: 9px 2px!important;
 }
 .audiojs .pause {
 background: none!important;
 width: 25px!important;
+padding: 9px 2px!important;
 }
 .audiojs .loading {
 background: url("../js/player-graphics.gif") -2px -31px no-repeat!important;
