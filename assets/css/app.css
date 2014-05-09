@@ -29,7 +29,9 @@ h2 {
 	letter-spacing: 6px;
 	margin-bottom: 15px;
 }
-
+a{
+   transition: color .5s ease;
+}
 .page-header>h1 {
 	letter-spacing: 10px;
 }
