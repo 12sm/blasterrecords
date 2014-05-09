@@ -9,4 +9,3 @@ if ( is_front_page() ) {
 	</div>
 </div>
 <?php echo do_shortcode('[wpv-view name="home-page-artists"]'); ?>
-<?php echo do_shortcode('[wpv-view name="home-page-banner"]'); ?>

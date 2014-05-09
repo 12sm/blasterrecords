@@ -4,6 +4,12 @@
       <div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
+    <div class="footer-banner">
+    <?php if (is_front_page()) {
+      echo do_shortcode('[wpv-view name="home-page-banner"]'); 
+    }
+    ?>
+    
     <div class="row footer-nav">  
         <?php
      if (has_nav_menu('footer_navigation')) :
