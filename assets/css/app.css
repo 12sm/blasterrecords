@@ -73,7 +73,11 @@ margin: 0 10px;
 }
 .socials>li>a>i {
 font-size: 2em;
+transition: color 1s linear;
 color: #000;
+}
+.socials>li>a>i:hover{
+   color: #555;
 }
 .img-wrapper {
 padding-top: 55%;
