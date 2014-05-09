@@ -144,7 +144,7 @@ display: block!important;
 div#audiojs_wrapper0 {
 height: 30px;
 margin-bottom: 10px;
-background: #FE0000;
+background: #F8F8F8;
 -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.0);
 -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.0);
 -o-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.0);
@@ -157,6 +157,12 @@ width: 315px;
    width: 210px!important;
    height: 7px!important;
    margin: 5px!important;
+}
+.scrubber-wrap {
+background: #FE0000;
+width: 100%;
+height: 17px;
+margin-top: 10px;
 }
 .time {
 display: none;
