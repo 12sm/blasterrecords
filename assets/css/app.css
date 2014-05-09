@@ -518,4 +518,12 @@ position: relative;
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) { }
+@media (min-width: @screen-lg) { 
+
+li.playing p {
+margin-bottom: 0!important;
+margin-bottom: 0!important;
+margin-top: 5%;
+}
+
+}
