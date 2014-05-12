@@ -16,6 +16,12 @@ h1, h2, h3, h4, h5, h6{
 	text-transform: uppercase;
 }
 
+h4.headline-style {
+	font-family: "proxima-nova";
+	font-size:26px;
+	letter-spacing:6px;
+}
+
 h1.artist-title {
 	font-weight: bolder;
 	font-size: 52px;
