@@ -20,6 +20,8 @@ h4.headline-style {
 	font-family: "proxima-nova";
 	font-size:26px;
 	letter-spacing:6px;
+	font-weight: 100;
+	margin: 65px 0px;
 }
 
 h1.artist-title {
