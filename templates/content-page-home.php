@@ -8,4 +8,6 @@ if ( is_front_page() ) {
 		<?php echo do_shortcode('[wpv-view name="homeartist-page-headline"]'); ?>
 	</div>
 </div>
+<div class="row">
 <?php echo do_shortcode('[wpv-view name="home-page-artists"]'); ?>
+</div>
