@@ -1,7 +1,7 @@
 <!--VIEWS-->
 
 [wpv-if style="wpcf-select-image-style" evaluate="$style='landscape'" debug="true"]
-<div class="row">
+<div class="row landscape">
 	<div class="col-sm-12">
 		<h1 class="artist-title">[wpv-post-title]</h1>
 	</div>
@@ -11,14 +11,22 @@
       <div class="artist-header">
 		<p class="artist-website">[types field="artist-website" no_protocol="true" target="_blank"][/types]</p>
 		<ul class="socials">
+			[wpv-if social='wpcf-facebook-url' evaluate="!empty($social)"]
 			<li><a href="[types field="facebook-url" output="raw"][/types]" target="
 _blank"><i class="fa fa-facebook-square"></i></a></li>
+			[/wpv-if]
+			[wpv-if social='wpcf-twitter-url' evaluate="!empty($social)"]
 			<li><a href="[types field="twitter-url" output="raw"][/types]" target="
 _blank"><i class="fa fa-twitter-square"></i></a></li>
+			[/wpv-if]
+			[wpv-if social='wpcf-instagram-url' evaluate="!empty($social)"]
 			<li><a href="[types field="instagram-url" output="raw"][/types]" target="
 _blank"><i class="fa fa-instagram"></i></a></li>
-			<li><a href="[types field="other-social-url" output="raw"][/types]" target="
+			[/wpv-if]
+			[wpv-if social='wpcf-youtube-url' evaluate="!empty($social)"]
+			<li><a href="[types field="youtube-url" output="raw"][/types]" target="
 _blank"><i class="fa fa-globe"></i></a></li>
+			[/wpv-if]
 		</ul>
       </div>
 	</div>
@@ -34,12 +42,14 @@ _blank"><i class="fa fa-globe"></i></a></li>
 	<div class="col-sm-5 artist-about">
 		<h2>About The Artist</h2>
       <p class="about">[types field="bio"][/types]</p>
-		<a href="artist bio page"><button class="btn btn-default">Read full bio</button></a>
+		<a href='[types field="bio-url" output="raw" ][/types]' target="_blank"><button class="btn btn-default">Read full bio</button></a>
+      <h2>Photo Gallery</h2>
 			<div class="row">
-              <h2>Photo Gallery</h2>
               [wpv-for-each field="wpcf-image-galleries"]
-          	<div class="col-sm-6">
-					[types field="image-galleries" size="thumbnail" align="none" resize="stretch" class="img-responsive" separator="&amp;nbsp;"][/types]
+          	<div class="col-sm-6 img-gal">
+          	<a href="[types field="image-galleries" size="large" url="true" resize="proportional" separator=", "][/types]" class="gal-img">
+					[types field="image-galleries" size="medium" align="none" resize="crop" class="img-responsive" separator="&amp;nbsp;"][/types]
+					</a>
           </div>
           [/wpv-for-each]
 			</div>
@@ -57,16 +67,18 @@ _blank"><i class="fa fa-globe"></i></a></li>
 </div>
       [/wpv-if]
       [wpv-if style="wpcf-select-image-style" evaluate="$style='portrait'" debug="true"]
-      <div class="row">
+      <div class="row portrait">
 	<div class="col-sm-5">
 		<div class="artist-image">
 			<img src="[types field="artist-image" output="raw"][/types]" class="img-responsive">
 		</div>
+      <h2>Photo Gallery</h2>
 		<div class="row">
-			<h2>Photo Gallery</h2>
           [wpv-for-each field="wpcf-image-galleries"]
-          	<div class="col-sm-6">
-					[types field="image-galleries" size="thumbnail" align="none" resize="stretch" class="img-responsive" separator="&amp;nbsp;"][/types]
+          	<div class="col-sm-6 img-gal">
+          	<a href="[types field="image-galleries" size="large" url="true" resize="proportional" separator=", "][/types]" class="gal-img">
+					[types field="image-galleries" size="medium" align="none" resize="crop" class="img-responsive" separator="&amp;nbsp;"][/types]
+					</a>
           </div>
           [/wpv-for-each]
 		</div>
@@ -78,14 +90,22 @@ _blank"><i class="fa fa-globe"></i></a></li>
 					 <div class="artist-header">
 		<p class="artist-website">[types field="artist-website" no_protocol="true" target="_blank"][/types]</p>
 		<ul class="socials">
+			[wpv-if social='wpcf-facebook-url' evaluate="!empty($social)"]
 			<li><a href="[types field="facebook-url" output="raw"][/types]" target="
 _blank"><i class="fa fa-facebook-square"></i></a></li>
+			[/wpv-if]
+			[wpv-if social='wpcf-twitter-url' evaluate="!empty($social)"]
 			<li><a href="[types field="twitter-url" output="raw"][/types]" target="
 _blank"><i class="fa fa-twitter-square"></i></a></li>
+			[/wpv-if]
+			[wpv-if social='wpcf-instagram-url' evaluate="!empty($social)"]
 			<li><a href="[types field="instagram-url" output="raw"][/types]" target="
 _blank"><i class="fa fa-instagram"></i></a></li>
-			<li><a href="[types field="other-social-url" output="raw"][/types]" target="
+			[/wpv-if]
+			[wpv-if social='wpcf-youtube-url' evaluate="!empty($social)"]
+			<li><a href="[types field="youtube-url" output="raw"][/types]" target="
 _blank"><i class="fa fa-globe"></i></a></li>
+			[/wpv-if]
 		</ul>
       </div>
 				</div>
@@ -94,7 +114,7 @@ _blank"><i class="fa fa-globe"></i></a></li>
 				<div class="col-sm-12 artist-about">
 					<h2>About The Artist</h2>
 				      <p class="about">[types field="bio"][/types]</p>
-						<a href="artist bio page"><button class="btn btn-default">Read full bio</button></a>
+						<a href='[types field="bio-url" output="raw" ][/types]' target="_blank"><button class="btn btn-default">Read full bio</button></a>
 				</div>
 			</div>
 			<div class="row">
@@ -114,6 +134,7 @@ _blank"><i class="fa fa-globe"></i></a></li>
 		</div>
 	</div>
       [/wpv-if]
+
 
 
 <!--Discographies-->
@@ -265,3 +286,32 @@ _blank"><i class="fa fa-globe"></i></a></li>
 		[wpv-view  name="track-listings"]
 	</div>
 </div>
+
+<!--Staff stuff-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<div class="row">
+		<wpv-loop>
+			<div class="col-md-4 col-sm-6">
+			[wpv-if image="wpcf-image" evaluate="!empty($image)"]
+				<div class="img-wrapper" style="background:url([types field="image" size="medium" url="true" resize="crop"][/types]); no-repeat">
+				[/wpv-if]
+				[wpv-if image="wpcf-image" evaluate="empty($image)"]
+				<div class="img-wrapper" style="background:url(/wp-content/themes/blasterrecords/assets/img/logo.png); no-repeat">
+				</div>
+				[/wpv-if]
+			<div>
+				<h4>[wpv-post-title]</h4>
+				<h5>[types field="position" output="raw"][/types]</h5>
+				<p>[types field="short-bio" output="raw"][/types]</p>
+			</div>
+			</div>
+		</wpv-loop>
+		</div>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
