@@ -52,6 +52,29 @@ a:hover {
 /*=======================================================
    Artist Page
   ======================================================= */
+  .artist-view{
+   -webkit-transition: filter .5s;
+     -moz-transition: filter .5s;
+      -ms-transition: filter .5s;
+          transition: filter .5s;
+          -webkit-filter: grayscale(100%);
+         -moz-filter: grayscale(100%);
+         -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+         filter: grayscale(100%);
+         filter: url(grayscale.svg);
+         filter: gray;
+  }
+  .artist-view:hover{
+   -webkit-filter: grayscale(0%);
+         -moz-filter: grayscale(0%);
+         -ms-filter: grayscale(0%);
+         -o-filter: grayscale(0%);
+         filter: grayscale(0%);
+         filter: none;
+         filter: none;
+
+  }
 .artist-website{
    float: left;
    line-height: 27px!important;
