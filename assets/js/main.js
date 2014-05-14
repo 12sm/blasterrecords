@@ -23,6 +23,9 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
+      //Socials open in new window
+      $('.menu-').children().attr('target','_blank');
+
       audiojs.events.ready(function() {
       var a = audiojs.createAll({
         trackEnded: function() {
