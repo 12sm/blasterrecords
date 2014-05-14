@@ -129,8 +129,11 @@ color: #000;
 }
 .img-wrapper {
 padding-top: 55%;
-background-size: contain!important;
+background-size: cover!important;
 margin-bottom: 10px;
+}
+.page-id-14 .img-wrapper{
+   background-size: contain!important;
 }
 .img-gal{
 width: 50%;
