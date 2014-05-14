@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?php echo home_url(); ?>/">
-      <img src="/assets/img/logo.png" /></a>
+      <img src="blasterrecords.com/wp-content/themes/blasterrecords/assets/img/logo.png" /></a>
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       
