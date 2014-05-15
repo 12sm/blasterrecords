@@ -522,11 +522,13 @@ width: 100%;
 
 h4.banner-headline {
 position: relative;
-top: 200px;
+bottom: 400px;
 left: 160px;
 max-width: 670px;
 color: #fff;
-font-size: 26px;
+font-size: 37px;
+letter-spacing: .3em;
+font-weight: 100;
 }
 
 a.banner-link {
