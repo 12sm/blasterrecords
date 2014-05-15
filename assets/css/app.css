@@ -531,6 +531,18 @@ letter-spacing: .3em;
 font-weight: 100;
 }
 
+h4.banner-sub-heading {
+position: relative;
+bottom: 420px;
+left: 160px;
+max-width: 670px;
+color: #fff;
+font-size: 27px;
+letter-spacing: .3em;
+font-weight: 100;
+}
+
+
 a.banner-link {
 text-decoration: none;
 }
