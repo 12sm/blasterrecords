@@ -310,7 +310,11 @@ font-size: 18px;
 
 .home header.banner.navbar.navbar-default.navbar-static-top {
 margin-bottom: 0px;
+height:130px;
 }
+
+a.navbar-brand {width: 240px;height: 120px;}
+a.navbar-brand img {width:100%;}
 
 .player {
 float: right;
