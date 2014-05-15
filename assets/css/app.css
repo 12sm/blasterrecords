@@ -33,7 +33,7 @@ h4.headline-style {
 	font-family: "proxima-nova";
 	font-size:26px;
 	letter-spacing:6px;
-	font-weight: 400;
+	font-weight: 100;
 	margin: 65px 0px;
 }
 
@@ -511,9 +511,15 @@ float: left;
 ul#menu-social-navigation {
 font-size: 20px;
 }
+
 .footer-banner{
    padding: 0px!important;
 }
+
+.container-fluid.footer-banner img {
+width: 100%;
+}
+
 h4.banner-headline {
 position: relative;
 top: 200px;
@@ -522,6 +528,7 @@ max-width: 670px;
 color: #fff;
 font-size: 26px;
 }
+
 a.banner-link {
 text-decoration: none;
 }
