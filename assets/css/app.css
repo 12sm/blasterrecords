@@ -542,13 +542,14 @@ letter-spacing: .3em;
 font-weight: 100;
 }
 
-
 a.banner-link {
 text-decoration: none;
 }
+
 a.banner-link:hover {
 text-decoration: none;
 }
+
 button.btn.btn-default.btn-banner {
 clear: both;
 height: 25px;
@@ -558,7 +559,7 @@ margin-top: 45px;
 margin-left: 15px;
 position: relative;
 bottom: 360px;
-left: 15%;
+left: 210px;
 }
 
 
