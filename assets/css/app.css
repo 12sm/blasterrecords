@@ -54,7 +54,7 @@ padding-bottom: 50px;
 /*=======================================================
    Artist Page
   ======================================================= */
-.artist-view{
+.artist-view {
    -webkit-transition: -webkit-filter .4s ease;
      -moz-transition: -moz-filter .4s ease;
       -ms-transition: -ms-filter .4s ease;
@@ -66,9 +66,11 @@ padding-bottom: 50px;
          filter: grayscale(50%);
          filter: url(grayscale.svg);
          filter: gray;
+	width: 100%;
+	height: auto;
 }
 
-.artist-view:hover{
+.artist-view:hover {
    -webkit-filter: grayscale(0%);
          -moz-filter: grayscale(0%);
          -ms-filter: grayscale(0%);
@@ -79,7 +81,7 @@ padding-bottom: 50px;
 
 }
 
-.artist-website{
+.artist-website {
    float: left;
    line-height: 27px!important;
    margin-bottom: 0px;
