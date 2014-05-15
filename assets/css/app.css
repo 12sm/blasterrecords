@@ -533,8 +533,8 @@ font-weight: 100;
 
 h5.banner-sub-heading {
 position: relative;
-bottom: 420px;
-left: 160px;
+bottom: 480px;
+left: 210px;
 max-width: 670px;
 color: #fff;
 font-size: 27px;
@@ -556,7 +556,12 @@ width: 100px;
 font-size: 15px;
 margin-top: 45px;
 margin-left: 15px;
+position: relative;
+bottom: 360px;
+left: 15%;
 }
+
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
