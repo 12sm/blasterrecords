@@ -66,9 +66,10 @@ padding-bottom: 50px;
          filter: grayscale(50%);
          filter: url(grayscale.svg);
          filter: gray;
+	opacity:.8;
 	width: 100%;
 	height: auto;
-	opacity:.8;
+
 }
 
 .artist-view:hover {
