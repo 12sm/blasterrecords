@@ -58,7 +58,7 @@ padding-bottom: 50px;
    -webkit-transition: -webkit-filter .4s ease;
      -moz-transition: -moz-filter .4s ease;
       -ms-transition: -ms-filter .4s ease;
-          transition: -o-filter .4s ease, filter .4s ease;
+          transition: -o-filter .4s ease, filter .4s ease, opacity .4s ease;
           -webkit-filter: grayscale(50%);
          -moz-filter: grayscale(50%);
          -ms-filter: grayscale(50%);
@@ -68,6 +68,7 @@ padding-bottom: 50px;
          filter: gray;
 	width: 100%;
 	height: auto;
+	opacity:.8;
 }
 
 .artist-view:hover {
@@ -78,7 +79,7 @@ padding-bottom: 50px;
          filter: grayscale(0%);
          filter: none;
          filter: none;
-
+	opacity:1;
 }
 
 .artist-website {
