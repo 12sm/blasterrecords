@@ -54,20 +54,21 @@ padding-bottom: 50px;
 /*=======================================================
    Artist Page
   ======================================================= */
-  .artist-view{
+.artist-view{
    -webkit-transition: -webkit-filter .4s ease;
      -moz-transition: -moz-filter .4s ease;
       -ms-transition: -ms-filter .4s ease;
           transition: -o-filter .4s ease, filter .4s ease;
-          -webkit-filter: grayscale(100%);
-         -moz-filter: grayscale(100%);
-         -ms-filter: grayscale(100%);
-         -o-filter: grayscale(100%);
-         filter: grayscale(100%);
+          -webkit-filter: grayscale(50%);
+         -moz-filter: grayscale(50%);
+         -ms-filter: grayscale(50%);
+         -o-filter: grayscale(50%);
+         filter: grayscale(50%);
          filter: url(grayscale.svg);
          filter: gray;
-  }
-  .artist-view:hover{
+}
+
+.artist-view:hover{
    -webkit-filter: grayscale(0%);
          -moz-filter: grayscale(0%);
          -ms-filter: grayscale(0%);
@@ -76,12 +77,14 @@ padding-bottom: 50px;
          filter: none;
          filter: none;
 
-  }
+}
+
 .artist-website{
    float: left;
    line-height: 27px!important;
    margin-bottom: 0px;
 }
+
 button.btn.btn-default {
 transition: background-color .5s ease;
 background-color: #FD0100;
@@ -93,15 +96,18 @@ font-size: 12px;
 font-weight: bolder;
 text-transform: uppercase;
 }
+
 button.btn.btn-default:hover{
    background-color: #000;
 }
+
 .artist-header {
 border-top: solid 1px #000;
 border-bottom: solid 1px #000;
 padding: 7px 15px;
 height: 40px;
 }
+
 .artist-website>a {
    transition: color .5s linear;
 color: #FE0000;
@@ -109,46 +115,57 @@ font-size: 16px;
 text-transform: uppercase;
 letter-spacing: 3px;
 }
+
 .artist-website>a:hover{
    color: #000;
 }
+
 .socials {
 list-style: none;
 }
+
 .socials>li {
 float: right;
 margin: 0 10px;
 }
+
 .socials>li>a>i {
 font-size: 2em;
 transition: color .5s ease;
 color: #000;
 }
+
 .socials>li>a>i:hover{
    color: #FD0100;
 }
+
 .img-wrapper {
 padding-top: 55%;
 background-size: cover!important;
 margin-bottom: 10px;
 }
+
 .page-id-14 .img-wrapper{
    background-size: contain!important;
 }
+
 .img-gal{
 width: 50%;
 height: 175px;
 overflow: hidden;
 margin-top: 5px;
 }
+
 .img-gal-disc{
 height: 175px;
 overflow: hidden;
 margin-top: 5px;
 }
+
 .artist-url:hover{
    text-decoration: none!important;
 }
+
 .img-wrapper > h4 {
 padding-top: 10px;
 padding-bottom: 10px;
@@ -158,12 +175,16 @@ text-align: right;
 text-decoration: none!important;
 color: #fff;
 }
+
 .headline {
 margin-bottom: 15px;
 }
+
 .discography {
 margin-top: 25px;
 }
+
+
 /* ==========================================================================
    Header
    ========================================================================== */
