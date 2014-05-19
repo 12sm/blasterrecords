@@ -240,6 +240,8 @@ display: none;
 
 li.playing {
 display: block!important;
+padding-top: 5%;
+color: rgb(206, 206, 206);
 }
 
 div#audiojs_wrapper0 {
@@ -317,9 +319,12 @@ height:130px;
 a.navbar-brand {width: 240px;height: 120px;}
 a.navbar-brand img {width:100%;}
 
+ul#menu-main-nav {padding-top: 3%;}
+
 .player {
 float: right;
 margin-top: 5px;
+padding-top:3%;
 }
 
 #menu-main-nav > li > a {
@@ -626,6 +631,10 @@ li.playing p {
 margin-bottom: 0!important;
 margin-bottom: 0!important;
 margin-top: 5%;
+}
+
+li.playing {
+padding-top: 5%;
 }
 
 }
