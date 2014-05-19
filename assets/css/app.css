@@ -556,6 +556,10 @@ font-size: 20px;
    overflow:hidden;
 }
 
+body.single-artist .footer-banner {
+display: none;
+}
+
 .container-fluid.footer-banner img {
 width: 100%;
 }
