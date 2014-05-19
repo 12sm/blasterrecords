@@ -665,6 +665,8 @@ a.navbar-brand img {
 width: 50%;
 }
 
+.player {display:none;}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
