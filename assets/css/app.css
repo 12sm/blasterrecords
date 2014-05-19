@@ -611,6 +611,10 @@ height: 130px!important;
 position: relative;
 }
 
+.navbar-default {
+padding-top: 3%;
+height:130px;
+}
 
 }
 
