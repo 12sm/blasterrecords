@@ -365,7 +365,9 @@ background-color: transparent!important;
 color: red!important;
 }
 
-a.navbar-brand img {width:40%;}
+.navbar-brand {padding: 10px 15px;}
+a.navbar-brand {width: 240px;height: 120px;}
+a.navbar-brand img {width:100%;}
 
 ul#menu-main-nav {padding-top: 3%;}
 
@@ -702,9 +704,5 @@ margin-top: 5%;
 li.playing {
 padding-top: 5%;
 }
-
-.navbar-brand {padding: 10px 15px;}
-a.navbar-brand {width: 240px;height: 120px;}
-a.navbar-brand img {width:100%!important;}
 
 }
