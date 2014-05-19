@@ -155,7 +155,7 @@ margin-bottom: 8%;
 }
 
 .img-gal{
-width: 50%;
+width: auto;
 height: 175px;
 overflow: hidden;
 margin-top: 5px;
@@ -207,10 +207,13 @@ text-transform: uppercase;
 font-size: 10px;
 color: #CCC;
 line-height:1.2;
+padding-top:4%;
 }
 
 div.album-meta {
 width: 170px;
+max-width: 98%;
+padding-top: 7%;
 }
 
 
@@ -658,9 +661,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm) { 
 
-div.album-meta {
-width: 116px!important;
-}
 
 }
 
