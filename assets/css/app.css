@@ -240,7 +240,7 @@ display: none;
 
 li.playing {
 display: block!important;
-padding-top: 5%;
+padding-top: 6%;
 color: rgb(206, 206, 206);
 }
 
@@ -301,9 +301,9 @@ background: url("../js/player-graphics.gif") -2px -61px no-repeat;
 width: 25px;
 height: 100%;
 float: left;
-color: #000;
+color: #D1D1D1;
 text-align: center;
-padding: 9px 6px!important;
+padding: 11px 3px!important;
 margin: 0px;
 overflow: hidden;
 border-right: 0px solid #000!important;
