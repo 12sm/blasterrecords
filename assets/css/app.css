@@ -162,7 +162,7 @@ margin-top: 5px;
 }
 
 .img-gal-disc{
-height: 175px;
+height: auto;
 overflow: hidden;
 margin-top: 5px;
 }
@@ -658,6 +658,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm) { 
 
+div.album-meta {
+width: 116px;
+}
 
 }
 
@@ -685,10 +688,6 @@ position: relative;
 .navbar-default {
 padding-top: 3%;
 height:130px;
-}
-
-div.album-meta {
-width: 120px;
 }
 
 }
