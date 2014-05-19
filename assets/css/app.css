@@ -190,6 +190,28 @@ margin-bottom: 15px;
 margin-top: 25px;
 }
 
+.album-meta p:nth-child(1) {
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-size: 11px;
+font-weight: bold;
+line-height: 1;
+color: rgb(112, 112, 112);
+margin-bottom:0;
+}
+
+.album-meta p:nth-child(2) {
+text-align: center;
+text-transform: uppercase;
+font-size: 10px;
+color: #CCC;
+line-height:1.2;
+}
+
+div.album-meta {
+width: 170px;
+}
 
 /* ==========================================================================
    Header
