@@ -659,7 +659,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: @screen-sm) { 
 
 div.album-meta {
-width: 116px;
+width: 116px!important;
 }
 
 }
