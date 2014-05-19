@@ -213,6 +213,20 @@ div.album-meta {
 width: 170px;
 }
 
+
+/* --- Artist Bio Modal --- */ 
+
+.modal-body {
+padding: 20px;
+height: 500px;
+overflow: scroll;
+}
+
+.modal-dialog {top: 20px;}
+.modal-header {border-bottom: transparent;}
+.modal-footer {padding: 0px 20px 0px;border-top: transparent;}
+
+
 /* ==========================================================================
    Header
    ========================================================================== */
