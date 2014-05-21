@@ -113,8 +113,7 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
 			<div class="row">
 				<div class="col-sm-12 artist-about">
 					<h2>About The Artist</h2>
-				      <p class="about">[types field="bio"][/types]</p>
-						<a href='[types field="bio-url" output="raw" ][/types]' target="_blank"><button class="btn btn-default">Read full bio</button></a>
+				      <p class="about">[types field="bio"][/types]</p><button class="btn btn-default" data-toggle="modal" data-target="#fullbio">Read full bio</button>
 				</div>
 			</div>
 			<div class="row">
@@ -335,3 +334,20 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!--Artist Modals-->
+<div class="modal fade" tabindex="-1" role="dialog" id="fullbio" aria-labelledby="fullbio" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>full bio</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
