@@ -617,7 +617,6 @@ position: relative;
 bottom: 400px;
 left: 160px;
 max-width: 670px;
-color: #C20DC2;
 font-size: 37px;
 letter-spacing: .3em;
 font-weight: 100;
@@ -726,6 +725,8 @@ li.playing {
 padding-top: 5%;
 }
 
-
+h4.banner-headline {
+color: #C20DC2;
+}
 
 }
