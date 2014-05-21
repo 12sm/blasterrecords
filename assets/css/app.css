@@ -278,7 +278,6 @@ display: none;
 
 li.playing {
 display: block!important;
-padding-top: 6%;
 color: rgb(206, 206, 206);
 }
 
@@ -375,6 +374,11 @@ ul#menu-main-nav {padding-top: 3%;}
 float: right;
 margin-top: 5px;
 padding-top:3%;
+}
+
+ol.playlist {
+padding-left: 75px;
+height: 10px;
 }
 
 #menu-main-nav > li > a {
