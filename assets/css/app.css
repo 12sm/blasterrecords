@@ -617,7 +617,7 @@ position: relative;
 bottom: 400px;
 left: 160px;
 max-width: 670px;
-color: #fff;
+color: #C20DC2;
 font-size: 37px;
 letter-spacing: .3em;
 font-weight: 100;
@@ -680,14 +680,6 @@ a.navbar-brand img {
 width: 50%;
 }
 
-a.banner-link {
-text-decoration: none;
-display: block!important;
-width: 50%!important;
-top: 32%!important;
-position: relative;
-left: -15%!important;
-}
 
 }
 
@@ -717,14 +709,6 @@ padding-top: 3%;
 height:130px;
 }
 
-a.banner-link {
-text-decoration: none;
-display: block;
-width: 50%;
-top: 32%;
-position: relative;
-left: -15%;
-}
 
 
 }
@@ -742,13 +726,6 @@ li.playing {
 padding-top: 5%;
 }
 
-a.banner-link {
-text-decoration: none;
-display: block;
-width: 50%;
-top: 32%;
-position: relative;
-left: -15%;
-}
+
 
 }
