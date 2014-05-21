@@ -19,6 +19,7 @@
       ?>
       
 	  <div class="player col-sm-12 col-md-4 col-lg-3">
+    <h1>commits even appearing?</h1>
 	      <?php if (is_singular( 'artist' ) ) {
 	        $postid = get_the_ID();
           echo "artist page";
