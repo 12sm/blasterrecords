@@ -547,7 +547,7 @@ display: none;
 }
 
 body.single img.attachment-large.wp-post-image {
-float: right!important;
+float: left!important;
 }
 
 /* ==========================================================================
