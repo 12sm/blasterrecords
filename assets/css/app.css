@@ -278,7 +278,7 @@ display: none;
 
 li.playing {
 display: block!important;
-color: rgb(206, 206, 206);
+color: rgb(131, 131, 131);
 }
 
 div#audiojs_wrapper0 {
@@ -338,7 +338,7 @@ background: url("../js/player-graphics.gif") -2px -61px no-repeat;
 width: 25px;
 height: 100%;
 float: left;
-color: #D1D1D1;
+color: rgb(131, 131, 131);
 text-align: center;
 padding: 11px 3px!important;
 margin: 0px;
