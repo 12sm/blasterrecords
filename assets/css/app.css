@@ -542,9 +542,12 @@ padding: 1%;
 
 #respond {background-color:#FFF;}
 
-
 body.category-news .addthis_default_style .at15t_compact {
 display: none;
+}
+
+body.single img.attachment-large.wp-post-image {
+float: right!important;
 }
 
 /* ==========================================================================
