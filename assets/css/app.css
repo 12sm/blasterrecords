@@ -616,6 +616,7 @@ h4.banner-headline {
 position: relative;
 bottom: 400px;
 left: 160px;
+color:#FFF;
 max-width: 670px;
 font-size: 37px;
 letter-spacing: .3em;
@@ -706,10 +707,6 @@ position: relative;
 .navbar-default {
 padding-top: 3%;
 height:130px;
-}
-
-h4.banner-headline {
-color: #C20DC2!important;
 }
 
 
