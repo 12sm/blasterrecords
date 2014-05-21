@@ -180,6 +180,7 @@ text-align: right;
 letter-spacing: .2em!important;
 text-decoration: none!important;
 color: #fff;
+font-size:100%;
 }
 
 .headline {
@@ -679,6 +680,14 @@ a.navbar-brand img {
 width: 50%;
 }
 
+a.banner-link {
+text-decoration: none;
+display: block;
+width: 50%;
+top: 32%;
+position: relative;
+left: -15%;
+}
 
 }
 
@@ -708,6 +717,9 @@ padding-top: 3%;
 height:130px;
 }
 
+
+
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -721,6 +733,15 @@ margin-top: 5%;
 
 li.playing {
 padding-top: 5%;
+}
+
+a.banner-link {
+text-decoration: none;
+display: block;
+width: 50%;
+top: 32%;
+position: relative;
+left: -15%;
 }
 
 }
