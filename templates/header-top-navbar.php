@@ -26,6 +26,7 @@
       echo do_shortcode('[wpv-view name="output-track-meta"]'); 
       }
       ?>
+	  <br />
       <audio preload></audio>
       </div>
       </div>
