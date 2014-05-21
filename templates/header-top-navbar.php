@@ -21,9 +21,11 @@
 	  <div class="player col-sm-12 col-md-4 col-lg-3">
 	      <?php if (is_singular( 'artist' ) ) {
 	        $postid = get_the_ID();
+          echo "artist page";
           echo $postid;
 	        echo do_shortcode('[wpv-view name="output-track-meta" wpvprchildof='.$postid.' ]');
 	      } else{
+          echo "not artist page";
 	      echo do_shortcode('[wpv-view name="output-track-meta"]'); 
 	      }
 	      ?>
