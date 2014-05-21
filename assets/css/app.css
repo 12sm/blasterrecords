@@ -708,6 +708,9 @@ padding-top: 3%;
 height:130px;
 }
 
+h4.banner-headline {
+color: #C20DC2!important;
+}
 
 
 }
@@ -725,8 +728,5 @@ li.playing {
 padding-top: 5%;
 }
 
-h4.banner-headline {
-color: #C20DC2!important;
-}
 
 }
