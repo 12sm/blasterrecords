@@ -700,6 +700,7 @@ max-width: 670px;
 font-size: 37px;
 letter-spacing: .3em;
 font-weight: 100;
+text-shadow: 0 0 5px #616161;
 }
 
 h5.banner-sub-heading {
@@ -711,6 +712,7 @@ color: #fff;
 font-size: 27px; 
 letter-spacing: .3em;
 font-weight: 100;
+text-shadow: 0 0 5px #616161;
 }
 
 a.banner-link {
