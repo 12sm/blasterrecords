@@ -290,7 +290,7 @@ background: #F8F8F8;
 -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.0);
 -o-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.0);
 box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.0);
-width: 315px;
+width: 100%;
 }
 
 .scrubber{
