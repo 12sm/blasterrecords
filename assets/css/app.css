@@ -351,6 +351,7 @@ display: none;
 li.playing {
 display: block!important;
 color: rgb(131, 131, 131);
+font-size: 11px;
 }
 
 div#audiojs_wrapper0 {
