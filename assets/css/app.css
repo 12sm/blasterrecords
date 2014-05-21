@@ -600,7 +600,8 @@ color:#888;
 body.single-artist .footer-banner,
 body.artists .footer-banner,
 body.staff .footer-banner,
-body.contact .footer-banner {
+body.contact .footer-banner,
+body.single .footer-banner {
 display: none;
 }
 
