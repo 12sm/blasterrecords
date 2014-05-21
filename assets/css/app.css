@@ -142,7 +142,6 @@ padding-bottom: 50px;
 	opacity:.8;
 	width: 100%;
 	height: auto;
-
 }
 
 .artist-view:hover {
@@ -627,6 +626,13 @@ min-width: 100px;
 max-width: 600px;
 height: auto;
 margin-right: 20px;
+}
+
+/* --- Layer Slider Top --- */
+
+h2.ls-l,
+h1.ls-l {
+text-shadow: 0 0 8px #616161;
 }
 
 /* ==========================================================================
