@@ -866,7 +866,7 @@ height:130px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+/*
 li.playing p {
 margin-bottom: 0!important;
 margin-bottom: 0!important;
@@ -875,7 +875,7 @@ margin-top: 5%;
 
 li.playing {
 padding-top: 5%;
-}
+}*/
 
 
 }
