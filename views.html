@@ -39,10 +39,10 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
 	</div>
 </div>
 <div class="row">
-	<div class="col-sm-5 artist-about">
+	<div class="col-md-5 col-sm-12 artist-about">
 		<h2>About The Artist</h2>
       <p class="about">[types field="bio"][/types]</p>
-		<a href='[types field="bio-url" output="raw" ][/types]' target="_blank"><button class="btn btn-default">Read full bio</button></a>
+	  <button class="btn btn-default" data-toggle="modal" data-target="#fullbio">Read full bio</button>
       <h2>Photo Gallery</h2>
 			<div class="row">
               [wpv-for-each field="wpcf-image-galleries"]
@@ -54,7 +54,7 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
           [/wpv-for-each]
 			</div>
 	</div>
-	<div class="col-sm-7">
+	<div class="col-md-7 col-sm-12">
 		<h2>Latest Video</h2>
 		<div class="vid-player">
 			[types field="video-url-embed"][/types]
@@ -68,7 +68,7 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
       [/wpv-if]
       [wpv-if style="wpcf-select-image-style" evaluate="$style='portrait'" debug="true"]
       <div class="row portrait">
-	<div class="col-sm-5">
+	<div class="col-md-5 col-sm-12">
 		<div class="artist-image">
 			<img src="[types field="artist-image" output="raw"][/types]" class="img-responsive">
 		</div>
@@ -83,7 +83,7 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
           [/wpv-for-each]
 		</div>
 	</div>
-	<div class="col-sm-7">
+	<div class="col-md-7 col-sm-12">
 		<h1 class="artist-title">[wpv-post-title]</h1>
 			<div class="row">
 				<div class="col-sm-12">
@@ -127,12 +127,29 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
 			<div class="row">
 				<div class="col-sm-12 discography">
 	              <h2>Discography</h2>
-	              [wpv-view name="Discographies"]
+	              [wpv-view name="Discographies" wpvprchildof="[wpv-post-id]"]
 				</div>
 			</div>
 		</div>
 	</div>
       [/wpv-if]
+      
+      <!--Artist Modals-->
+<div class="modal fade" tabindex="-1" role="dialog" id="fullbio" aria-labelledby="fullbio" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body">
+     [types field="full-bio"][/types]
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

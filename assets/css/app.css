@@ -229,19 +229,6 @@ margin-bottom: 8%;
    background-size: contain!important;
 }
 
-.img-gal{
-width: 50%;
-height: 140px;
-overflow: hidden;
-margin-top: 5px;
-}
-
-.img-gal-disc{
-height: auto;
-overflow: hidden;
-margin-top: 5px;
-}
-
 .artist-url:hover{
    text-decoration: none!important;
 }
@@ -830,7 +817,18 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 a.navbar-brand img {
 width: 50%;
 }
+.img-gal{
+width: 50%;
+height: 140px;
+overflow: hidden;
+margin-top: 5px;
+}
 
+.img-gal-disc{
+height: auto;
+overflow: hidden;
+margin-top: 5px;
+}
 
 }
 
