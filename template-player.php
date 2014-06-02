@@ -3,5 +3,4 @@
 Template Name: Audio-Player Template
 */
 ?>
-
-<?php echo do_shortcode('[wpv-view name="output-track-meta"]'); ?>
+<?php get_template_part('templates/content', 'page-player'); ?>
