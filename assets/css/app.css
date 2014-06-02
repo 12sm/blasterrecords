@@ -821,7 +821,7 @@ width: 50%;
 .banner-headline-box{
 left: 160px;
 width: 50%;
-margin-top: 4%;
+margin-top: 9%;
 }
 h4.banner-headline {
 font-size: 37px;
@@ -846,11 +846,8 @@ height: auto;
 overflow: hidden;
 margin-top: 5px;
 }
-.banner-headline-box {
-margin-top: 9%;
-}
 .footer-banner {
-max-height: 490px;
+max-height: 345px;
 }
 button.btn.btn-default.btn-banner {
 margin-top: 45px;
