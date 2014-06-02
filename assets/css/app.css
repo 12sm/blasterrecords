@@ -470,8 +470,13 @@ margin-left: 12px;
 }
 .audio-player{
   background-color: #F8F8F8;
-  height: 78px;
-  width: 285px;
+  overflow: hidden;
+}
+.audio-player .player{
+  width: 100%;
+}
+.audio-player .audiojs{
+  margin-top: 25px;
 }
 /* ==========================================================================
    Content
