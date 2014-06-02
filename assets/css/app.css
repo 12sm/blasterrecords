@@ -748,27 +748,27 @@ display: none;
 .container-fluid.footer-banner img {
 width: 100%;
 }
-
-.banner-headline-box{
-  position: relative;
+.banner-headline-box {
+position: relative;
 bottom: 400px;
-left: 160px;
-width: 50%;
-margin-top: 4%;
+left: 45px;
+width: 70%;
+margin-top: 92%;
 }
 h4.banner-headline {
-color:#FFF;
+color: #FFF;
 max-width: 670px;
-font-size: 37px;
+font-size: 8px;
 letter-spacing: .3em;
 font-weight: 100;
 text-shadow: 0 0 5px #616161;
 }
 
+
 h5.banner-sub-heading {
 max-width: 670px;
-color: #fff;  
-font-size: 27px; 
+color: #fff;
+font-size: 10px;
 letter-spacing: .3em;
 font-weight: 100;
 text-shadow: 0 0 5px #616161;
@@ -787,11 +787,10 @@ clear: both;
 height: 25px;
 width: 115px;
 font-size: 15px;
-margin-top: 45px;
+margin-top: 10px;
 position: relative;
 float: right;
 }
-
 
 /* ==========================================================================
    WordPress Generated Classes
@@ -818,7 +817,17 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 a.navbar-brand img {
 width: 50%;
 }
-
+.banner-headline-box{
+left: 160px;
+width: 50%;
+margin-top: 4%;
+}
+h4.banner-headline {
+font-size: 37px;
+}
+h5.banner-sub-heading {
+font-size: 27px; 
+}
 .img-gal {
 width: 50%;
 height: 140px;
@@ -840,6 +849,9 @@ margin-top: 9%;
 }
 .footer-banner {
 max-height: 340px;
+}
+button.btn.btn-default.btn-banner {
+margin-top: 45px;
 }
 }
 
