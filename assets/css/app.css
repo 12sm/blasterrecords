@@ -466,6 +466,7 @@ margin-left: 12px;
 }
 .glyphicon{
   float: right;
+  cursor: pointer;
 }
 /* ==========================================================================
    Content
