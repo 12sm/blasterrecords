@@ -1,7 +1,7 @@
   <?php
 
 if ( is_front_page() ) {    
-    layerslider(1);
+    layerslider(4);
     } ?>
 <div class="row">
 	<div class="col-sm-12 headline">
