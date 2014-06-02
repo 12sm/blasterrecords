@@ -838,7 +838,7 @@ margin-top: 5px;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
-.header {height:130px;}
+/*.header {height:130px;}
 
 ul#menu-main-nav {
 position: relative;
@@ -861,7 +861,7 @@ padding-top: 3%;
 height:130px;
 }
 
-
+*/
 }
 
 /* Large devices (large desktops, 1200px and up) */
