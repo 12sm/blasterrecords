@@ -823,7 +823,9 @@ height: 140px;
 overflow: hidden;
 margin-top: 5px;
 }
-
+.container-fluid{
+  max-width: 1170px;
+}
 .img-gal-disc{
 height: auto;
 overflow: hidden;
