@@ -703,7 +703,7 @@ height: 90px!important;
    Footer
    ========================================================================== */
 
-.content-info { }
+.content-info {background-color: #ccc; }
 
 #social ul {margin:0px; padding:0px; list-style: none;}
 #social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
