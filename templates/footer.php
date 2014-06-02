@@ -1,4 +1,4 @@
-<div class="container-fluid footer-banner">
+<div class="footer-banner">
     <?php if (is_front_page()) {
       echo do_shortcode('[wpv-view name="home-page-banner"]'); 
     }
