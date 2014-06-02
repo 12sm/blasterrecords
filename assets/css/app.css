@@ -827,6 +827,7 @@ margin-top: 5px;
 }
 
 .container-fluid {
+  max-width: 1170px;
 }
 
 .img-gal-disc {
