@@ -26,7 +26,7 @@
 	      echo do_shortcode('[wpv-view name="output-track-meta"]'); 
 	      }
 	      ?>
-         <i class="glyphicon glyphicon-new-window"></i>
+         <i class="glyphicon pop-out glyphicon-new-window"></i>
 		  <br />
     	  <audio preload></audio>
       </div>
