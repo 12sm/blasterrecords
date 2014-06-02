@@ -141,7 +141,6 @@ width: 100%;
          -ms-filter: grayscale(50%);
          -o-filter: grayscale(50%);
          filter: grayscale(50%);
-         /*filter: url(grayscale.svg);*/
          filter: gray;
 	transition:opacity .4s ease;
 	opacity:.8;
