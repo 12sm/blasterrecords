@@ -812,7 +812,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { 
+@media (min-width: 768px) { 
 
 a.navbar-brand img {
 width: 50%;
