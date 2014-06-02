@@ -175,6 +175,7 @@ padding: 0px;
 font-size: 12px;
 font-weight: bolder;
 text-transform: uppercase;
+padding: 5px;
 }
 
 button.btn.btn-default:hover{
