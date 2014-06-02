@@ -131,33 +131,7 @@ width: 100%;
 /*=======================================================
    Artist Page
   ======================================================= */
-.artist-view {
-   -webkit-transition: -webkit-filter .4s ease;
-     -moz-transition: -moz-filter .4s ease;
-      -ms-transition: -ms-filter .4s ease;
-          transition: -o-filter .4s ease, filter .4s ease;
-          -webkit-filter: grayscale(50%);
-         -moz-filter: grayscale(50%);
-         -ms-filter: grayscale(50%);
-         -o-filter: grayscale(50%);
-         filter: grayscale(50%);
-         filter: gray;
-	transition:opacity .4s ease;
-	opacity:.8;
-	width: 100%;
-	height: auto;
-}
 
-.artist-view:hover {
-   -webkit-filter: grayscale(0%);
-         -moz-filter: grayscale(0%);
-         -ms-filter: grayscale(0%);
-         -o-filter: grayscale(0%);
-         filter: grayscale(0%);
-         filter: none;
-         filter: none;
-	opacity:1;
-}
 
 .artist-website {
    float: left;
@@ -858,6 +832,36 @@ margin-top: 45px;
 .footer-banner {
    max-height: 490px;
 }
+
+/*Artist grayscale*/
+.artist-view {
+   -webkit-transition: -webkit-filter .4s ease;
+     -moz-transition: -moz-filter .4s ease;
+      -ms-transition: -ms-filter .4s ease;
+          transition: -o-filter .4s ease, filter .4s ease;
+          -webkit-filter: grayscale(50%);
+         -moz-filter: grayscale(50%);
+         -ms-filter: grayscale(50%);
+         -o-filter: grayscale(50%);
+         filter: grayscale(50%);
+         filter: gray;
+  transition:opacity .4s ease;
+  opacity:.8;
+  width: 100%;
+  height: auto;
+}
+
+.artist-view:hover {
+   -webkit-filter: grayscale(0%);
+         -moz-filter: grayscale(0%);
+         -ms-filter: grayscale(0%);
+         -o-filter: grayscale(0%);
+         filter: grayscale(0%);
+         filter: none;
+         filter: none;
+  opacity:1;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
