@@ -838,6 +838,9 @@ margin-top: 5px;
 .banner-headline-box {
 margin-top: 9%;
 }
+.footer-banner {
+max-height: 340px;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
