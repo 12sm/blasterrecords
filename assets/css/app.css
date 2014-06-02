@@ -474,9 +474,13 @@ margin-left: 12px;
 }
 .audio-player .player{
   width: 100%;
+  margin-top: 20px!important;
 }
-.audio-player .audiojs{
-  margin-top: 25px;
+.audio-player .audiojs {
+top: 50px;
+position: absolute;
+left: 5px;
+width: 90%!important;
 }
 /* ==========================================================================
    Content
