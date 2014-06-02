@@ -828,7 +828,11 @@ margin-top: 45px;
 div#audiojs_wrapper0 {
 margin-top: 10px;
 }
-
+.playing p {
+max-height: 30px;
+overflow: hidden;
+}
+}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 .footer-banner {
