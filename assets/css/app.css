@@ -835,7 +835,7 @@ margin-top: 5px;
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) { 
+@media (min-width: 992px) { 
 
 .header {height:130px;}
 
@@ -864,7 +864,7 @@ height:130px;
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) { 
+@media (min-width: 1200px) { 
 
 li.playing p {
 margin-bottom: 0!important;
