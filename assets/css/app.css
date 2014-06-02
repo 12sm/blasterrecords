@@ -825,6 +825,8 @@ max-height: 345px;
 button.btn.btn-default.btn-banner {
 margin-top: 45px;
 }
+div#audiojs_wrapper0 {
+margin-top: 10px;
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -832,7 +834,9 @@ margin-top: 45px;
 .footer-banner {
    max-height: 490px;
 }
-
+div#audiojs_wrapper0 {
+margin-top: 0px;
+}
 /*Artist grayscale*/
 .artist-view {
    -webkit-transition: -webkit-filter .4s ease;

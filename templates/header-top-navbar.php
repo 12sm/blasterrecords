@@ -18,7 +18,7 @@
         endif;
       ?>
       
-	  <div class="player col-sm-12 col-md-4 col-lg-3" id="player">
+	  <div class="player col-sm-3 col-md-4 col-lg-3" id="player">
 	      <?php if (is_singular( 'artist' ) ) {
 	        $postid = get_the_ID();
 	        echo do_shortcode('[wpv-view name="output-track-meta" wpvprchildof='.$postid.' ]');
