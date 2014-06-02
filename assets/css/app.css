@@ -818,16 +818,18 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 a.navbar-brand img {
 width: 50%;
 }
-.img-gal{
+
+.img-gal {
 width: 50%;
 height: 140px;
 overflow: hidden;
 margin-top: 5px;
 }
-.container-fluid{
-  max-width: 1170px;
+
+.container-fluid {
 }
-.img-gal-disc{
+
+.img-gal-disc {
 height: auto;
 overflow: hidden;
 margin-top: 5px;
