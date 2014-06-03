@@ -408,12 +408,13 @@ a.navbar-brand img {width:100%;padding-top:7%;}
 
 ul#menu-main-nav {padding-top: 3.5%;}
 
+
 .player {
 float: right;
 margin-top: 5px;
-padding-top:1.6%;
+padding-top: 1.6%;
+bottom: 65px;
 }
-
 ol.playlist {
 padding-left: 75px;
 height: 10px;
@@ -789,7 +790,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+.player {
+float: right;
+margin-top: 5px;
+padding-top:1.6%;
+position: relative;
+}
 .banner-headline-box{
 left: 160px;
 width: 50%;
@@ -831,7 +837,9 @@ max-height: 30px;
 overflow: hidden;
 width: 85%;
 }
-
+.player{
+  bottom: 125px;
+}
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
