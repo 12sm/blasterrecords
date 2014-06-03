@@ -7,9 +7,10 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-sm-12">
-      <div class="artist-header">
-		<p class="artist-website">[types field="artist-website" no_protocol="true" target="_blank"][/types]</p>
+	<div class="col-sm-6 artist-header">
+	<p class="artist-website">[types field="artist-website" no_protocol="true" target="_blank"][/types]</p>
+	</div>
+	<div class="col-sm-6 artist-header">
 		<ul class="socials">
 			[wpv-if social='wpcf-facebook-url' evaluate="!empty($social)"]
 			<li><a href="[types field="facebook-url" output="raw"][/types]" target="
@@ -28,8 +29,8 @@ _blank"><i class="fa fa-instagram"></i></a></li>
 _blank"><i class="fa fa-youtube-square"></i></a></li>
 			[/wpv-if]
 		</ul>
+		</div>
       </div>
-	</div>
 </div>
 <div class="row">
 	<div class="col-sm-12">
@@ -78,9 +79,10 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
 	<div class="col-md-7 col-sm-12">
 		<h1 class="artist-title">[wpv-post-title]</h1>
 			<div class="row">
-				<div class="col-sm-12">
-					 <div class="artist-header">
-		<p class="artist-website">[types field="artist-website" no_protocol="true" target="_blank"][/types]</p>
+	<div class="col-sm-6">
+	<p class="artist-website artist-header">[types field="artist-website" no_protocol="true" target="_blank"][/types]</p>
+	</div>
+	<div class="col-sm-6 artist-header">
 		<ul class="socials">
 			[wpv-if social='wpcf-facebook-url' evaluate="!empty($social)"]
 			<li><a href="[types field="facebook-url" output="raw"][/types]" target="
@@ -99,8 +101,8 @@ _blank"><i class="fa fa-instagram"></i></a></li>
 _blank"><i class="fa fa-youtube-square"></i></a></li>
 			[/wpv-if]
 		</ul>
+		</div>
       </div>
-				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12 artist-about">
