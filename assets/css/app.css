@@ -57,6 +57,9 @@ max-width: 100%;
 height: auto;
 width: 100%;
 }
+header .container-fluid{
+  background: #F8F8F8;
+}
 /*
     Colorbox Core Style:
     The following CSS is consistent between example themes and should not be altered.
@@ -408,13 +411,13 @@ a.navbar-brand img {width:100%;padding-top:7%;}
 
 ul#menu-main-nav {padding-top: 3.5%;}
 
-
 .player {
 float: right;
-margin-top: 5px;
 padding-top: 1.6%;
-bottom: 65px;
+background: #F8F8F8;
+width: 100%;
 }
+
 ol.playlist {
 padding-left: 75px;
 height: 10px;
@@ -793,8 +796,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .player {
 float: right;
 margin-top: 5px;
-padding-top:1.6%;
-position: relative;
+padding-top: 1.6%;
+bottom: 65px;
 }
 .banner-headline-box{
 left: 160px;
