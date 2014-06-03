@@ -17,20 +17,20 @@
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
-      
-	  <div class="player col-sm-3 col-md-4 col-lg-3" id="player">
-	      <?php if (is_singular( 'artist' ) ) {
-	        $postid = get_the_ID();
-	        echo do_shortcode('[wpv-view name="output-track-meta" wpvprchildof='.$postid.' ]');
-	      } else{
-	      echo do_shortcode('[wpv-view name="output-track-meta"]'); 
-	      }
-	      ?>
-         <i class="glyphicon pop-out glyphicon-new-window"></i>
-		  <br />
-    	  <audio preload></audio>
-      </div>
-	  
-     </div>
     </nav>
+          
+    <div class="player col-sm-3 col-md-4 col-lg-3" id="player">
+        <?php if (is_singular( 'artist' ) ) {
+          $postid = get_the_ID();
+          echo do_shortcode('[wpv-view name="output-track-meta" wpvprchildof='.$postid.' ]');
+        } else{
+        echo do_shortcode('[wpv-view name="output-track-meta"]'); 
+        }
+        ?>
+         <i class="glyphicon pop-out glyphicon-new-window"></i>
+      <br />
+        <audio preload></audio>
+      </div>
+    
+     </div>
 </header>
