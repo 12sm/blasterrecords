@@ -403,8 +403,8 @@ color: red!important;
 }
 
 .navbar-brand {padding: 10px 15px;}
-a.navbar-brand {width: 240px;height: 120px;}
-a.navbar-brand img {width:70%;padding-top:7%;}
+a.navbar-brand {max-width: 165px; height: 120px;}
+a.navbar-brand img {width:100%;padding-top:7%;}
 
 ul#menu-main-nav {padding-top: 3.5%;}
 
@@ -834,6 +834,7 @@ max-height: 30px;
 overflow: hidden;
 width: 85%;
 }
+
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
