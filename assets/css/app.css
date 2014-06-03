@@ -800,6 +800,9 @@ padding-top: 1.6%;
 bottom: 65px;
 width: inherit;
 }
+header .container-fluid {
+background: transparent;
+}
 .banner-headline-box{
 left: 160px;
 width: 50%;
