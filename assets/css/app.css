@@ -604,11 +604,12 @@ display: none;
 }
 
 body.single img.attachment-large.wp-post-image {
-float: left!important;
-min-width: 100px;
-max-width: 600px;
+/* float: left!important; */
+/* min-width: 100px; */
+/* max-width: 600px; */
 height: auto;
 margin-right: 20px;
+width: 100%;
 }
 
 /* --- Layer Slider Top --- */
@@ -837,6 +838,11 @@ overflow: hidden;
 @media (min-width: 992px) { 
 .footer-banner {
    max-height: 490px;
+}
+body.single img.attachment-large.wp-post-image {
+float: left!important;
+min-width: 100px;
+max-width: 600px;
 }
 div#audiojs_wrapper0 {
 margin-top: 0px;
