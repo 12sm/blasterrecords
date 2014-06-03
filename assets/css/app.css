@@ -845,9 +845,6 @@ float: left!important;
 min-width: 100px;
 max-width: 600px;
 }
-div#audiojs_wrapper0 {
-margin-top: 0px;
-}
 /*Artist grayscale*/
 .artist-view {
    -webkit-transition: -webkit-filter .4s ease;
