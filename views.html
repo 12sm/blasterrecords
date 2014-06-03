@@ -39,7 +39,19 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
 	</div>
 </div>
 <div class="row">
-	<div class="col-md-5 col-sm-12 artist-about">
+	<div class="col-md-7 col-md-push-5 col-sm-12">
+		<h2>Latest Video</h2>
+		<div class="vid-player">
+			[types field="video-url-embed"][/types]
+		</div>
+		<div class="row">
+			<div class="col-sm-12 discography">
+              <h2>Discography</h2>
+              [wpv-view name="Discographies" wpvprchildof="[wpv-post-id]"]
+			</div>
+		</div>
+	</div>
+	<div class="col-md-5 col-md-pull-7 col-sm-12 artist-about">
 		<h2>About The Artist</h2>
       <p class="about">[types field="bio"][/types]</p>
 	  <button class="btn btn-default" data-toggle="modal" data-target="#fullbio">Read full bio</button>
@@ -54,33 +66,13 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
           [/wpv-for-each]
 			</div>
 	</div>
-	<div class="col-md-7 col-sm-12">
-		<h2>Latest Video</h2>
-		<div class="vid-player">
-			[types field="video-url-embed"][/types]
-		</div>
-		<div class="row">
-			<div class="col-sm-12 discography">
-              <h2>Discography</h2>
-              [wpv-view name="Discographies" wpvprchildof="[wpv-post-id]"]
-	</div>
-</div>
+
       [/wpv-if]
       [wpv-if style="wpcf-select-image-style" evaluate="$style='portrait'" debug="true"]
       <div class="row portrait">
 	<div class="col-md-5 col-sm-12">
 		<div class="artist-image">
 			<img src="[types field="artist-image" output="raw"][/types]" class="img-responsive">
-		</div>
-      <h2>Photo Gallery</h2>
-		<div class="row">
-          [wpv-for-each field="wpcf-image-galleries"]
-          	<div class="col-sm-6 img-gal">
-          	<a href="[types field="image-galleries" size="large" url="true" resize="proportional" separator=", "][/types]" class="gal-img">
-					[types field="image-galleries" size="medium" align="none" resize="crop" class="img-responsive" separator="&amp;nbsp;"][/types]
-					</a>
-          </div>
-          [/wpv-for-each]
 		</div>
 	</div>
 	<div class="col-md-7 col-sm-12">
@@ -116,19 +108,31 @@ _blank"><i class="fa fa-youtube-square"></i></a></li>
 				      <p class="about">[types field="bio"][/types]</p><button class="btn btn-default" data-toggle="modal" data-target="#fullbio">Read full bio</button>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-12">
+		</div>
+	</div>
+	<div class="row">
+	<div class="col-sm-12 col-md-7 col-md-push-5">
 					<h2>Latest Video</h2>
 					<div class="vid-player">
 						[types field="video-url-embed"][/types]
 					</div>
-				</div>
-			</div>
 			<div class="row">
 				<div class="col-sm-12 discography">
 	              <h2>Discography</h2>
 	              [wpv-view name="Discographies" wpvprchildof="[wpv-post-id]"]
 				</div>
+			</div>
+		</div>
+			<div class="col-md-5 col-md-pull-7 col-sm-12">
+	      <h2>Photo Gallery</h2>
+			<div class="row">
+	          [wpv-for-each field="wpcf-image-galleries"]
+	          	<div class="col-sm-6 img-gal">
+	          	<a href="[types field="image-galleries" size="large" url="true" resize="proportional" separator=", "][/types]" class="gal-img">
+						[types field="image-galleries" size="medium" align="none" resize="crop" class="img-responsive" separator="&amp;nbsp;"][/types]
+						</a>
+	          </div>
+	          [/wpv-for-each]
 			</div>
 		</div>
 	</div>
