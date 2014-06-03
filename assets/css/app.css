@@ -798,6 +798,7 @@ float: right;
 margin-top: 5px;
 padding-top: 1.6%;
 bottom: 65px;
+width: inherit;
 }
 .banner-headline-box{
 left: 160px;
