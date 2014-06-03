@@ -708,7 +708,7 @@ color:#888;
 .footer-banner {
    padding: 0px!important;
    height: 490px;
-   max-height: 115px;
+   max-height: 130px;
    overflow:hidden;
 }
 
@@ -763,7 +763,7 @@ clear: both;
 height: 25px;
 width: 115px;
 font-size: 15px;
-margin-top: 10px;
+/*margin-top: 10px;*/
 position: relative;
 float: right;
 }
