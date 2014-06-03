@@ -832,6 +832,7 @@ margin-top: 10px;
 .playing p {
 max-height: 30px;
 overflow: hidden;
+width: 85%;
 }
 }
 /* Medium devices (desktops, 992px and up) */
