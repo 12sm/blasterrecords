@@ -810,7 +810,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
-.wrap {min-height:800px;}
+.wrap {min-height:720px;}
 
 .player {
 float: right;
