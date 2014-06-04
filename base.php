@@ -29,7 +29,13 @@
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 
-  <?php get_template_part('templates/footer'); ?>
+<?php
+if (is_page('audio-player')) {
+    //No header in audio-player
+  } else {
+	  get_template_part('templates/footer');
+}
+?>
 
 </body>
 </html>
