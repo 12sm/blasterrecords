@@ -729,6 +729,7 @@ color:#888;
 .footer-banner {
    padding: 0px!important;
    overflow:hidden;
+   position:relative;
 }
 
 body.single-artist .footer-banner,
