@@ -391,12 +391,12 @@ font-size: 18px;
 
 .home header.banner.navbar.navbar-default.navbar-static-top {
 margin-bottom: 0px;
-height:130px;
-overflow:hidden;
 }
 
 .navbar-default {
 border-color: transparent!important;
+height: 130px;
+overflow: hidden;
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -678,7 +678,11 @@ height: 90px!important;
    Footer
    ========================================================================== */
 
-.content-info {max-width: 100%!important;padding-top:3%; background-color: #555555;}
+.content-info {
+max-width: 100%!important;
+padding: 20px 15px 15px 15px;
+background-color: #555555;
+}
 .content-info>.row{max-width: 1170px; margin: 0 auto;}
 
 #social ul {margin:0px; padding:0px; list-style: none;}
@@ -810,6 +814,11 @@ font-size: 37px;
 h5.banner-sub-heading {
 font-size: 27px; 
 }
+
+#menu-main-nav > li > a {
+padding:15px 5px;
+}
+
 .img-gal {
 width: 50%;
 height: 140px;
@@ -855,6 +864,11 @@ margin: 0 auto;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
+#menu-main-nav > li > a {
+padding:15px;
+}
+
 .footer-banner {
    max-height: 460px;
 }
