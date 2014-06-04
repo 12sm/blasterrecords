@@ -421,6 +421,10 @@ background-color: transparent!important;
 color: red!important;
 }
 
+.navbar-toggle {
+margin-top: 18px;
+}
+
 a.navbar-brand {
 width: 145px;
 height: 70px;
