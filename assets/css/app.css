@@ -392,6 +392,7 @@ font-size: 18px;
 .home header.banner.navbar.navbar-default.navbar-static-top {
 margin-bottom: 0px;
 height:130px;
+overflow:hidden;
 }
 
 .navbar-default {
@@ -834,11 +835,16 @@ margin-top: 45px;
 div#audiojs_wrapper0 {
 margin-top: 10px;
 }
-.playing p {
+
+.playing p.song-title {
 max-height: 30px;
 overflow: hidden;
-width: 85%;
+width: 173px;
+left: -65px;
+position: relative;
+top: 13px;
 }
+
 .player{
   bottom: 125px;
 }
