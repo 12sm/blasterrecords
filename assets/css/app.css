@@ -412,8 +412,6 @@ margin-bottom: 0px;
 
 .navbar-default {
 border-color: transparent!important;
-height: 130px;
-overflow: hidden;
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -434,6 +432,7 @@ float: right;
 padding-top: 1.6%;
 background: #F8F8F8;
 width: 100%;
+display:none;
 }
 
 ol.playlist {
@@ -818,6 +817,7 @@ margin-top: 5px;
 padding-top: 1.6%;
 bottom: 65px;
 width: inherit;
+display:block;
 }
 header .container-fluid {
 background: transparent;
@@ -834,6 +834,12 @@ font-size: 27px;
 
 #menu-main-nav > li > a {
 padding:15px 5px;
+}
+
+.navbar-default {
+border-color: transparent!important;
+height: 130px;
+overflow: hidden;
 }
 
 .img-gal {
