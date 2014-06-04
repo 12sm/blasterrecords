@@ -44,6 +44,8 @@ a {
 
 a:hover {
    text-decoration: none;
+   color:#fff;
+   background:#FD0100;
 }
 
 .page-header>h1 {
@@ -824,9 +826,10 @@ padding:15px 5px;
 
 .img-gal {
 width: 50%;
-height: 140px;
+height: 0px;
 overflow: hidden;
 margin-top: 5px;
+padding-bottom: 33%;
 }
 
 .container-fluid {
