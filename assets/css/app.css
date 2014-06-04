@@ -785,7 +785,7 @@ width: 115px;
 font-size: 15px;
 /*margin-top: 10px;*/
 position: relative;
-float: right;
+float: left;
 }
 
 /* ==========================================================================
@@ -809,6 +809,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+
+.wrap {min-height:800px;}
+
 .player {
 float: right;
 margin-top: 5px;
@@ -876,6 +879,11 @@ form.visual-form-builder {
 width: 50%;
 margin: 0 auto;
 }
+
+button.btn.btn-default.btn-banner {
+float: right;
+}
+
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
