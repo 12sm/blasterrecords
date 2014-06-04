@@ -446,6 +446,8 @@ width: 100%;
 display:none;
 }
 
+body.audio-player .player {display:block;}
+
 ol.playlist {
 padding-left: 75px;
 height: 10px;
