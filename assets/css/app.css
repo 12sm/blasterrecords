@@ -39,6 +39,7 @@ h4.headline-style {
 
 a {
    transition: color .5s ease;
+   color:#FD0100;
 }
 
 a:hover {
