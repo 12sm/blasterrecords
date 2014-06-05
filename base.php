@@ -31,7 +31,7 @@
 
 <?php
 if (is_page('audio-player')) {
-    //No header in audio-player
+    //No footer in audio-player
   } else {
 	  get_template_part('templates/footer');
 }

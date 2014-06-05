@@ -38,7 +38,7 @@ var Roots = {
       });
       // Load in the first track
         var audio = a[0];
-            first = $('ol a').attr('data-src');
+            first = $('ol li a').attr('data-src');
         $('ol li').first().addClass('playing');
         audio.load(first);
 
