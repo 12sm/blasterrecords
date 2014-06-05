@@ -615,8 +615,8 @@ border-top: 1px solid #ededed;
 }
 
 .individual-post .post-footer .post-date {
-color: #ccc!important;
-font-size: 10px;
+color: #999!important;
+font-size: 14px;
 text-transform: uppercase;
 }
 
