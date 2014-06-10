@@ -150,7 +150,9 @@ header .container-fluid{
    Artist Page
   ======================================================= */
 
-
+.single-artist .pager{
+  display: none;
+}
 .artist-website {
    float: left;
    line-height: 27px!important;
