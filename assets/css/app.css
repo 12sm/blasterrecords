@@ -157,7 +157,7 @@ header .container-fluid{
    margin-bottom: 0px;
 }
 
-button.btn.btn-default {
+button.btn.btn-default, .btn-default {
 transition: background-color .5s ease;
 background-color: #FD0100;
 border-radius: 0px;
