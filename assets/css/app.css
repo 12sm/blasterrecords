@@ -95,7 +95,7 @@ color: #333;
 .cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
 #colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
 
-/* 
+/*
     User Style:
     Change the following styles to modify the appearance of Colorbox.  They are
     ordered & tabbed in a way that represents the nesting of the generated HTML.
@@ -121,7 +121,7 @@ color: #333;
 
         /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
         #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
-        
+
         /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
         #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
 
@@ -161,7 +161,10 @@ color: #333;
    line-height: 27px!important;
    margin-bottom: 0px;
 }
-
+.artist-padding{
+  padding-right: 15px;
+  padding-left: 15px;
+}
 button.btn.btn-default, .btn-default {
 transition: background-color .5s ease;
 background-color: #FD0100;
@@ -281,7 +284,7 @@ padding-top: 7%;
 }
 
 
-/* --- Artist Bio Modal --- */ 
+/* --- Artist Bio Modal --- */
 
 .modal-body {
 padding: 20px;
@@ -421,8 +424,8 @@ margin-bottom: 0px;
 border-color: transparent!important;
 }
 
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
 background-color: transparent!important;
 color: red!important;
@@ -543,7 +546,7 @@ width: 100%;
 }
 
 .meta-date-share {
-padding: 1%;   
+padding: 1%;
 background-color:#FFF;
 }
 
@@ -555,7 +558,7 @@ opacity: .7;
 }
 
 .meta-date-share .addthis_toolbox {
-width:250px;   
+width:250px;
 }
 
 .blog-top{
@@ -582,7 +585,7 @@ margin-top:5px;
 
 body.single .btn-primary:hover {
 background-color: #c9c9c9;
-} 
+}
 
 h1.entry-title {
 text-transform: uppercase!important;
@@ -609,7 +612,7 @@ border: 1px solid rgb(238, 238, 238);
 
 .individual-post .excerpt {
 height: 155px;
-overflow: hidden; 
+overflow: hidden;
 color: rgb(88, 88, 88);
 }
 
@@ -828,7 +831,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .ls-container button.btn.btn-default {
 font-size: 10px;
 padding: 2px;
-}	
+}
 
 .portrait .artist-title {padding: 0px 15px;}
 
@@ -836,7 +839,7 @@ padding: 2px;
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 
 .wrap {min-height:720px;}
 
@@ -858,7 +861,7 @@ h4.banner-headline {
 font-size: 37px;
 }
 h5.banner-sub-heading {
-font-size: 27px; 
+font-size: 27px;
 }
 
 #menu-main-nav > li > a {
@@ -925,7 +928,7 @@ float: right;
 
 }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 
 #menu-main-nav > li > a {
 padding:15px;
@@ -971,7 +974,7 @@ max-width: 600px;
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 
 
 
